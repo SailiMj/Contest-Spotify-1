@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+ color: white;
+}
+
+#main {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+}
+#sidebar {
+  flex: 1;
+  background-color: #000;
+}
+li{
+    margin: 10px 10px 10px 1px;
+}
+a{
+    text-decoration: none;
+    width: 62.996px;
+    height: 30.881px;
+    flex-shrink: 0;
+    color: #FFF;
+
+font-family: DM Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+margin-left: 20px;
+}
+
+    
+#mainbar {
+  flex: 6;
+  background: linear-gradient(
+    180deg,
+    #222 0%,
+    #1f1f1f 11.64%,
+    #171717 25.66%,
+    #161616 32.94%,
+    #151515 35.98%,
+    #131313 44.89%,
+    #121212 55.22%,
+    #121212 75.34%,
+    #121212 85.45%,
+    rgba(18, 18, 18, 0) 100%
+  );
+}
+#player {
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
+  background-color: #181818;
+  bottom: 0px;
+}
+.card-1 {
+  width: 290px;
+  height: 100px;
+  border-radius: 4px;
+  background: #303030;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  margin: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.card-1>img {
+  margin-right: 30px;
+}
+.lists {
+  display: flex;
+  flex-wrap: wrap;
+}
